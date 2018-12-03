@@ -12,3 +12,5 @@
                 (reductions +) ;; lazy sequence of the totals
                 (util/repeated) ;; lazy sequence of the repeated elements
                 first)) 
+
+(def make-message (util/make-message "Day 1" part1 part2))
